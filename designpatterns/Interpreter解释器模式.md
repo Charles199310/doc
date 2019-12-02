@@ -39,7 +39,7 @@ public class NonterminalExpression implements Expression {
         context2.chars = new char[length];
         System.arraycopy(context.chars, 1, context2.chars, 0, length);
 
-        return new NonterminalExpression().interpret(context1) + new NonterminalExpression().interpret(context2);
+        return new TerminalExpression().interpret(context1) + new NonterminalExpression().interpret(context2);
     }
 }
 // 客户端
