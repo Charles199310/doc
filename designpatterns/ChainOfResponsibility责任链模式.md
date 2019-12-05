@@ -1,4 +1,6 @@
 # Chan of Responsibility
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 将请求以其职责拆成，并以链的结构组合，使请求在链中传递并且可以在链中拦截请求。
 ## 类图

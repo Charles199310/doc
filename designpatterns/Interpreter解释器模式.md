@@ -1,4 +1,6 @@
 # Interpreter 备忘录模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 将表达式转化为操作，并且将其拆成最小的单元
 ## 类图

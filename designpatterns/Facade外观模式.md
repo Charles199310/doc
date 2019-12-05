@@ -1,4 +1,6 @@
 # Facade 外观模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 管理，封装若干子系统，使其作为一个整体系统对外提供操作。
 ## 类图

@@ -1,4 +1,6 @@
 # Abstract Factory 抽象工厂模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 1. 管理两个系列的产品之间的关系
 2. 兼具工厂方法的作用  

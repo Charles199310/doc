@@ -1,4 +1,6 @@
 # Interator 迭代器模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 针对数据集合，提供一种（若干）忽略集合内部细节以及访问细节的访问方式，从而使访问者与集合解耦。
 ## 类图

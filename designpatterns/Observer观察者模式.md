@@ -1,4 +1,6 @@
 # Observer 观察者模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 使数据结构的变换可以从数据结构主动通知到观察者处。同时方便观察者和被观察者扩展。
 ## 类图

@@ -1,4 +1,6 @@
 # State 状态模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 将一个类在不同状态下的操作组合起来，成为一个类。方便不同状态下的操作切换和扩展。
 ## 类图

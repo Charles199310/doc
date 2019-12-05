@@ -1,4 +1,6 @@
 # Memento 备忘录模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 使对象可以保存并恢复到某一状态。
 ## 类图

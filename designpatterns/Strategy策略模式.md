@@ -1,4 +1,6 @@
 # Strategy 策略模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 将算法封装起来，使对象可以在不同情况，使用不同算法。
 ## 类图

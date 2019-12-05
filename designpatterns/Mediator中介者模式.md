@@ -1,4 +1,6 @@
 # Mediator 中介者模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 为不同对象提供一个中心化的通信方式，从而避免直接耦合。
 ## 类图

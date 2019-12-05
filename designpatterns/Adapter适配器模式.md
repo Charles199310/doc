@@ -1,4 +1,6 @@
 # Adapter 适配器模式
+[设计原则学习笔记](https://www.jianshu.com/p/f7f79adad32b)  
+[设计模式学习笔记](https://www.jianshu.com/p/08bf9381697c)  
 ## 作用
 将原本不匹配的接口转化成匹配的接口
 ## 类图
