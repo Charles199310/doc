@@ -48,11 +48,11 @@ public class Singleton {
 ```
 双重检查涉及到的知识点比较多：  
 1. 第一个判空是为了提高性能，去掉以后就成了饿汉式的一种；  
-2. volatile关键字是为了避免指令重排带来的bug,在指令重排的情况下。在线程一坑能已经给sInstance字段赋值，但是指向的是一个空地址，此时线程二可能误判Singleton不为空返回sIntance造成控制住；
+2. volatile关键字是为了避免指令重排带来的bug,在指令重排的情况下。在线程一可能已经给sInstance字段赋值，但是指向的是一个空地址，此时线程二可能误判Singleton不为空返回sIntance造成空指针；
 3. synchronized锁住的是Singleton.class对象，这个对象本省是全局唯一的，所以不同线程进入代码块要判断是否可以获取Singleton.class对象的锁。
 
 ## Android源码中的应用
 
 * LayoutInflater
 * Glide
-* SystemServiceRegistry 
+* SystemServiceRegistry
