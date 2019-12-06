@@ -65,3 +65,8 @@ public class Client {
 }
 ```
 其中Builder类经常被写作产品类的静态内部类，Director类经常被省略，其逻辑写入到了客户端。
+
+## Android源码中的应用
+
+* Notification
+* AlertDialog
