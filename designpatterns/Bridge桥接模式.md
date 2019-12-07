@@ -28,3 +28,6 @@ public class RefinedAbstraction extends Abstraction {
 }
 ```
 在Java中由于继承的侵入性太高，所有有时候即使完美的符合is-a的关系也不实用继承而是实用其他方法实现，桥接模式就是一种解决方案。
+
+## Android源码中的应用
+* ImageView与Drawable

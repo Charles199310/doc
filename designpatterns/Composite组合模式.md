@@ -43,3 +43,5 @@ public class Composite implements Component{
     }
 }
 ```
+## Android源码中的应用
+* View & ViewGroup

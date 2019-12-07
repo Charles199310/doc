@@ -35,3 +35,6 @@ public class Client {
     }
 }
 ```
+## Android源码中的应用
+* Context.startActivity(封装了Task等)
+* Glide等众多框架

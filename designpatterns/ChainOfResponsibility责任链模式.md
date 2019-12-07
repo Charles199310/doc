@@ -36,3 +36,6 @@ public class Client {
     }
 }
 ```
+## Android源码中的应用
+* View的点击事件分发
+* Okhttp

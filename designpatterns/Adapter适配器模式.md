@@ -62,3 +62,7 @@ public class Client {
 }
 ```
 另有接口适配器，是给原有的抽象接口添加默认实现，这样在实现的时候，就不必强制实现所有接口了。
+
+## Android源码中的应用
+* RecycleView ListView
+* AnimatorListenerAdapter

@@ -58,3 +58,6 @@ public class Client {
 }
 ```
 观察者模式分为推模型和拉模型，推模型在通知的时候主动将数据推给观察者，拉模型则只通知观察者发生了变换，具体数据需要单独再获取。
+## Android源码中的应用
+* ContentObserver
+* BroacastRecivier

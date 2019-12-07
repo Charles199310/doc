@@ -19,3 +19,6 @@ public class ConcreteClass extends AbstractClass {
     }
 }
 ```
+## Android源码中的应用
+* Activityy等四大组件
+* View

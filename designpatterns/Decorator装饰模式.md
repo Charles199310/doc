@@ -43,3 +43,5 @@ public class ConcreteDecorator extends Decorator {
 }
 ```
 装饰类本质也是一个Component实现，单不能单独使用，需要配合被修饰的类实用，其接口提供的方法主要还是由被修饰的类来实现。
+## Android源码中的应用
+* 各种IO接口

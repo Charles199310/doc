@@ -35,3 +35,6 @@ public class Client {
 }
 ```
 享元模式要求区分享元的内部状态和外部状态，外部状态要求正确重置，否则会携带上次使用的状态，使用时会出现bug
+## Android源码中的应用
+* Resource获取资源
+* Glide缓存池

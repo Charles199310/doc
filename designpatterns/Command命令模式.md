@@ -42,3 +42,6 @@ public class Client {
     }
 }
 ```
+## Android源码中的应用
+* prermClick & View.OnClickListener
+* Looper & Message
