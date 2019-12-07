@@ -73,3 +73,6 @@ public class Client {
 通过中介者ColleageA和ColleageB虽然没有直接耦合，但可以协同工作。
 
 中介者模式和外观模式很相似，两者区别在于，外观模式是总系统对子系统的控制。而中介者模式是协同不同系统之间的通信。外观模式一般是总系统向子系统的单向控制。而中介者模式一般是双向的通信。
+
+## Android源码中的应用
+* KeyguardViewMediator
