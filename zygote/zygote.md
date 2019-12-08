@@ -2,15 +2,12 @@
 ---
 在我们做AMS,PMS等分享的时候都有提到过zygote,那么zygote是什么呢？
 
-![zygote_img_01](src/zygote_img_01.png)
-
 zygote中文意思是受精卵，
-通过这个名字我们大概可以知道，安卓团队大概是通过他孵化什么东西，
-那么问题来了。他的父母是谁？他孵化成了了什么？孵化过程中又做了什么？
+通过这个名字我们大概可以知道，安卓团队大概是通过他孵化什么东西。
 
-再次祭上文杰的图：
+再次祭上图：
 
-![zygote_img_02](src/zygote_img_02.jpg)
+![zygote_img_02](src/zygote_img_2.png)
 
 由图我们可以看出，他的父进程是init进程，他孵化了SystemServer进程，以及我们的应用进程。
 下面我们重点看一看zygote是怎么工作的：
