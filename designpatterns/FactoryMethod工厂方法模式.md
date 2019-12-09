@@ -44,5 +44,4 @@ public class Client {
 当没有抽象的工厂类，只有一个具体的工厂类，甚至是通过静态的方法生产产品的时候这时就是简单工厂模式（静态工厂模式）。
 
 ## Android源码中的应用
-* Instrumentation （创建四大组件）
 * Spannable.Factory
