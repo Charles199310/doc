@@ -91,3 +91,5 @@ public class Client {
 
 ```
 如上面代码，我们给原本不相关的A1和B1建立了一种联系
+## Android源码中的应用
+* Instrumentation （创建四大组件）
