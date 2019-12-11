@@ -1,4 +1,10 @@
 # Dagger2入门（一）—— Dagger2优点
+## 目录
+[Dagger2入门（一）—— Dagger2优点](https://www.jianshu.com/p/fa44a88cf27c)  
+[Dagger2入门（二）—— Dagger2的简单使用](https://www.jianshu.com/p/46d29e0f0373)  
+[Dagger2入门（二）—— Dagger2的高级用法](https://www.jianshu.com/p/146ce3894436)  
+
+## 优点
 Dagger2使我们在开发中经常遇到的依赖注入框架。但是为什么要用dagger2呢？换句话说就是为什么用依赖注入的方式去创建对象呢？很多人的答复是为了解耦，但一般模式耦合在哪里？为什么就不能用new的方法呢？  
 这对于许多开发经验不是那么充足的猿来说是比较难理解的，在这里我建议新猿看到这里，不妨先放下Dagger2,先学习一下[工厂方法模式](https://www.jianshu.com/p/b4f6113d8afd)、[享元模式](https://www.jianshu.com/p/74b64f8d99b0)以及MVC,MVP,MVVM模式。  
 Dagger2本质上是帮你生成一个管理依赖对象的工厂。  
