@@ -69,7 +69,7 @@ Gradle插件有三种编写，并应用的方法：
       implementation localGroovy() //groovy sdk
   }
   ```
-3. 删除Java目录，新建groovy目录，用于添加groovy文件:
+3. 删除Java目录，新建groovy目录，用于添加groovy文件:  
   ![新建grooy目录](res/gradle_plugin_03.PNG)
 4. 添加Plugin文件，后缀为.groovy
   ``` Groovy
