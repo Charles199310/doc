@@ -82,3 +82,4 @@
         this.handler = handler;
     }  
   ```
+* 以Android中的其他方式创建线程，如AsycTask，IntentService等，这些本质上都是对Thread的封装，在这里就不做详细介绍
