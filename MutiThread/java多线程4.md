@@ -21,12 +21,12 @@ __写缺失__ 一个有效的缓存行被写入到不存在的内存区域。
   volatile字段有以下重排序规则
   ![volatile重排序规则表](res/mutitread_01.jpg)
   为了实现以上效果，有以下保守策略的JMM内存屏障插入策略。
-  * 在每个volatile写操作的前面插入一个StoreStore屏障。
-  * 在每个volatile写操作的后面插入一个StoreLoad屏障。
-  * 在每个volatile读操作的后面插入一个LoadLoad屏障。
-  * 在每个volatile读操作的后面，插入一个LoadStore屏障。
+    * 在每个volatile写操作的前面插入一个StoreStore屏障。
+    * 在每个volatile写操作的后面插入一个StoreLoad屏障。
+    * 在每个volatile读操作的后面插入一个LoadLoad屏障。
+    * 在每个volatile读操作的后面，插入一个LoadStore屏障。
 
-  StoreStore屏障，禁止上面的普通写和下面的volatile写重排序。
-  StareLoad屏障，防止上面的volatile写与下面可能有的volatile读/写重排序。  
-  LoadLoad屏障，禁止下面所有的普通读操作和上面的volatile读重排序。
-  LoadStore屏障，禁止下面所有的普通写操作和上面的volatile读重排序。
+    StoreStore屏障，禁止上面的普通写和下面的volatile写重排序。
+    StareLoad屏障，防止上面的volatile写与下面可能有的volatile读/写重排序。  
+    LoadLoad屏障，禁止下面所有的普通读操作和上面的volatile读重排序。
+    LoadStore屏障，禁止下面所有的普通写操作和上面的volatile读重排序。
